@@ -1,0 +1,41 @@
+.footer
+{
+    padding-top: 30px;
+    text-align: center;
+    height: 150px;
+    background-color:  #151e1e;
+    color: #e1eaea;
+}
+.contact
+{
+    letter-spacing: 0.1cm;
+    text-align: left;
+    margin: 0px 0px 0px 140px;
+    font-size: 30px;
+}
+
+.num
+{
+    text-align: left;
+    margin: 0px 0px 0px 150px;
+   
+}
+.socialicon
+{
+   
+    margin:-100px 200px 0px 0px;
+    color: #e1eaea;
+    float: right;
+}
+.soc 
+{
+    font-size: 30px;
+    margin-right: 100px;
+    padding-bottom: 10px;
+}
+.so
+{
+    text-decoration: none;
+    color: #e1eaea;
+    padding: 10px 14px 0px 14px;
+}

@@ -1,0 +1,656 @@
+.ab
+{
+    height:1050px;
+}
+.footer
+{
+    border-top: solid 1px whitesmoke;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../images/grad.jpg');
+    background-size: 1600px 1200px;
+}
+.book-page
+{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5) 0 20px 100px rgba(0,0,0,0.5);
+    background:#eafafa;
+    transition: 0.5s;
+
+}
+
+.book-page:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px)
+    rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 10px 100px rgba(0,0,0,0.5);
+}
+
+.book-page:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+
+}
+
+.book-page:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    transform-origin: left;
+    transform: skewY(-45deg);
+
+}
+
+.page-img
+{
+    width: 100%;
+    height:100%;
+    position:relative;
+    transform-origin:left;
+    transition:1s cubic-bezier(.15,1.7,.84,.58);
+    z-index:1
+}
+
+.page-img img{
+    width:100%;
+    height: 100%;
+}
+
+.book-page:hover .page-img
+{
+    transform: rotateY(-135deg);
+}
+
+.book-text
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    text-align: center;
+}
+
+
+.book-text p
+{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#00264d;
+}
+
+.book-page2
+{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5) 0 20px 100px rgba(0,0,0,0.5);
+    background:#eafafa;
+    transition: 0.5s;
+}
+
+.book-page2:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px)
+    rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 10px 100px rgba(0,0,0,0.5);
+}
+
+.book-page2:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+
+}
+
+.book-page2:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    transform-origin: left;
+    transform: skewY(-45deg);
+
+}
+
+.page-img2
+{
+    width: 100%;
+    height:100%;
+    position:relative;
+    transform-origin:left;
+    transition:1s cubic-bezier(.15,1.7,.84,.58);
+    z-index:1
+}
+
+.page-img2 img{
+    width:100%;
+    height: 100%;
+}
+
+.book-page2:hover .page-img2
+{
+    transform: rotateY(-135deg);
+}
+
+.book-text2
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    
+}
+
+
+.book-text2 p
+{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#00264d;
+}
+#heading
+{
+    font-size: 26px;
+}
+
+.book-page3
+{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5) 0 20px 100px rgba(0,0,0,0.5);
+    background:#eafafa;
+    transition: 0.5s;
+
+}
+
+.book-page3:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px)
+    rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 10px 100px rgba(0,0,0,0.5);
+}
+
+.book-page3:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+
+}
+
+.book-page3:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    transform-origin: left;
+    transform: skewY(-45deg);
+
+}
+
+.page-img3
+{
+    width: 100%;
+    height:100%;
+    position:relative;
+    transform-origin:left;
+    transition:1s cubic-bezier(.15,1.7,.84,.58);
+    z-index:1
+}
+
+.page-img3 img{
+    width:100%;
+    height: 100%;
+}
+
+.book-page3:hover .page-img3
+{
+    transform: rotateY(-135deg);
+}
+
+.book-text3
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    text-align: center;
+}
+
+
+.book-text3 p
+{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#00264d;
+}
+
+.book-page4
+{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5) 0 20px 100px rgba(0,0,0,0.5);
+    background:#eafafa;
+    transition: 0.5s;
+
+}
+
+.book-page4:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px)
+    rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 10px 100px rgba(0,0,0,0.5);
+}
+
+.book-page4:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+
+}
+
+.book-page4:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    transform-origin: left;
+    transform: skewY(-45deg);
+
+}
+
+.page-img4
+{
+    width: 100%;
+    height:100%;
+    position:relative;
+    transform-origin:left;
+    transition:1s cubic-bezier(.15,1.7,.84,.58);
+    z-index:1
+}
+
+.page-img4 img{
+    width:100%;
+    height: 100%;
+}
+
+.book-page4:hover .page-img4
+{
+    transform: rotateY(-135deg);
+}
+
+.book-text4
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    text-align: center;
+}
+
+
+.book-text4 p
+{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#00264d;
+}
+
+
+.book-page5
+{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    top: 130%;
+    left: 20%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5) 0 20px 100px rgba(0,0,0,0.5);
+    background:#eafafa;
+    transition: 0.5s;
+
+}
+
+.book-page5:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px)
+    rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 10px 100px rgba(0,0,0,0.5);
+}
+
+.book-page5:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+
+}
+
+.book-page5:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    transform-origin: left;
+    transform: skewY(-45deg);
+
+}
+
+.page-img5
+{
+    width: 100%;
+    height:100%;
+    position:relative;
+    transform-origin:left;
+    transition:1s cubic-bezier(.15,1.7,.84,.58);
+    z-index:1
+}
+
+.page-img5 img{
+    width:100%;
+    height: 100%;
+}
+
+.book-page5:hover .page-img5
+{
+    transform: rotateY(-135deg);
+}
+
+.book-text5
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    text-align: left;
+}
+
+
+.book-text5 p
+{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 21px;
+    color:#00264d;
+}
+
+#ser
+{
+    font-size: 26px;
+    text-align: center;
+}
+
+
+.book-page6
+{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    top: 130%;
+    left: 80%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5) 0 20px 100px rgba(0,0,0,0.5);
+    background:#eafafa;
+    transition: 0.5s;
+
+}
+
+.book-page6:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px)
+    rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 10px 100px rgba(0,0,0,0.5);
+}
+
+.book-page6:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+
+}
+
+.book-page6:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    transform-origin: left;
+    transform: skewY(-45deg);
+
+}
+
+.page-img6
+{
+    width: 100%;
+    height:100%;
+    position:relative;
+    transform-origin:left;
+    transition:1s cubic-bezier(.15,1.7,.84,.58);
+    z-index:1
+}
+
+.page-img6 img{
+    width:100%;
+    height: 100%;
+}
+
+.book-page6:hover .page-img6
+{
+    transform: rotateY(-135deg);
+}
+
+.book-text6
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    text-align: left;
+}
+
+
+.book-text6 p
+{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color:#00264d;
+}
+
+
+.book-page7
+{
+    width: 370px;
+    height: 200px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,0.5) 0 20px 100px rgba(0,0,0,0.5);
+    background:#eafafa;
+    transition: 0.5s;
+
+}
+
+.book-page7:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px)
+    rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 10px 100px rgba(0,0,0,0.5);
+}
+
+.book-page7:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+
+}
+
+.book-page7:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    transform-origin: left;
+    transform: skewY(-45deg);
+
+}
+
+.page-img7
+{
+    width: 100%;
+    height:100%;
+    position:relative;
+    transform-origin:left;
+    transition:1s cubic-bezier(.15,1.7,.84,.58);
+    z-index:1
+}
+
+.page-img7 img{
+    width:100%;
+    height: 100%;
+}
+
+.book-page7:hover .page-img7
+{
+    transform: rotateY(-135deg);
+}
+
+.book-text7
+{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    text-align: left;
+}
+
+
+.book-text7 p
+{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#00264d;
+}

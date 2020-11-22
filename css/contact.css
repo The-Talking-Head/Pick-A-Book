@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Pacifico|Source+Code+Pro');
+ @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    background-image: url('../images/wood.jpg');
+   color: #fff;
+}
+.footer
+{
+    border-top: solid 1px whitesmoke;
+}
+#feedback
+{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    text-shadow: #fff;
+}
+
+h3
+{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+#allcomments {
+    width: 90%;
+    padding: 1%;
+}
+
+ul#pastcomments {
+    /* background-image: url('../images/wood.jpg'); */
+    list-style-type: none;
+    margin-left: 150px;
+    padding: 40px 10px 10px 40px;
+    border: solid 1px whitesmoke;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px white;
+}
+
+ul#pastcomments li:before {
+    font-family: FontAwesome;
+    content: "\f075";
+    font-size: 25px;
+    color: white;
+    position: relative;
+}
+
+ul#pastcomments li {
+    margin: 0 0 2em 0;
+    padding: 10px;
+    font-size: 22px;
+}
+
+ul#pastcomments li span {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+#newcomment
+{
+    background-image: url('../images/feed.jpg');
+    width: 600px;
+    margin: 10px 50px 10px 400px;
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+    padding: 30px 50px 50px 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+form#newcomment textarea {
+    height: 72px;
+}
+
+form#newcomment label {
+    display: inline-block;
+    margin: 1em 0 0 0;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+form#newcomment textarea,
+form#newcomment input[type="text"] {
+    margin-top: 0;
+}
+
+#tbName
+{
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 6px;
+    width: 500px;
+    opacity: 0.8;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#txComment
+{
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 20px 5px 5px 10px;
+    height: 100px;
+    width: 500px;
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#btnSubmitComment
+{
+    margin-top: 30px;
+    height: 50px;
+    opacity: 0.8;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    border-radius: 8px;
+
+}
+#btnSubmitComment:hover
+{
+    background-color: #00334d;
+    color:#fff;
+    transition: 0.3s;
+    opacity: 1;
+    
+}
